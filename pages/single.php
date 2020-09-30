@@ -17,3 +17,4 @@
     </div>
 
 </div>
+<script src="scripts/singleVue.js"></script>
