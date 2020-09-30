@@ -14,6 +14,7 @@
 .word-box #Replique {
     margin: 15px 50px;
     font-size: 18px;
+    text-align: center;
 }
 
 .word-box .word-title {
