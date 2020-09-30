@@ -31,11 +31,36 @@ html {
   margin-top: 5px;
 }
 
-/* ------------ Page body ------------ */
-.page-body {
+/* ------------ Word box section ------------ */
+.word-box {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 20px 0;
   padding: 15px;
+  background-color: darkblue;
+}
+
+.word-box .word-title {
+  display: flex;
+}
+
+.word-box .word-title .audio-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.share-box li {
+  padding: 7px;
+  margin: 5px;
+}
+
+
+/* ------------ Words list section ------------ */
+.page-body {
+  display: flex;
   justify-content: center;
   color: white;
 }
@@ -61,28 +86,4 @@ html {
 .page-body .words-list {
   max-width: 1400px;
   padding: 20px;
-}
-
-.word-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 50px;
-  background-color: darkblue;
-}
-
-.word-box .word-title {
-  display: flex;
-}
-
-.word-box .word-title .audio-btn {
-  display: block;
-  width: 50px;
-  height: 50px;
-  background-color: white;
-}
-
-.share-box li {
-  padding: 7px;
-  margin: 5px;
 }
