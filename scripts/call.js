@@ -29,12 +29,12 @@ fetch(server + "/functions/getDatas/getWords.php")
         li.appendChild(p);
         p.appendChild(textnode);
 
+        // Append <li> in HTML code
+        document.getElementById("words-list").appendChild(li); 
+
         document.getElementById(key).onclick = function () {
           singleVueUpdate(key);
         };
-
-        // Append <li> in HTML code
-        document.getElementById("words-list").appendChild(li); 
       }
     })(key);
     
