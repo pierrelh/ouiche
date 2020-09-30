@@ -39,6 +39,7 @@ html {
   margin: 20px 0;
   padding: 15px;
   background-color: darkblue;
+  color: white;
 }
 
 .word-box .word-title {
@@ -52,17 +53,20 @@ html {
   background-color: white;
 }
 
-.share-box li {
-  padding: 7px;
-  margin: 5px;
+.word-title p {
+  font-size: 16px;
+  font-weight: bold;
 }
 
+.share-box ul {
+  width: 170px;
+  justify-content: space-between;
+}
 
 /* ------------ Words list section ------------ */
 .page-body {
   display: flex;
   justify-content: center;
-  color: white;
 }
 
 .list {
