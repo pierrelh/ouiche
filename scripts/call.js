@@ -1,5 +1,6 @@
 // Fetch data from PHP file
-fetch('https://jsonplaceholder.typicode.com/todos')
+var server = "https://" + window.location.hostname;
+fetch(server + "/functions/getDatas/getWords.php")
   .then(response => response.json())
   .then(function(response) {
     console.log(response);
