@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Ouiches</title>
         <link rel="stylesheet" type="text/css" href="styles/common/master.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/common/header.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/common/single.css"/>
     </head>
     
     <body>

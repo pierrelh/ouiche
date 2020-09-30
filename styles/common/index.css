@@ -1,0 +1,29 @@
+/* ------------ Words list section ------------ */
+.page-body {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-body .list li {
+    padding: 7px;
+    margin: 5px;
+    background-color: white;
+    box-shadow: #d3d3d391 0px 4px 15px;
+    transition: ease-in-out 0.3s;
+}
+
+.page-body .list li:hover {
+    box-shadow: rgb(95, 95, 95) 0px 4px 15px;
+    cursor: pointer;
+}
+
+.page-body .words-list {
+    max-width: 1400px;
+    padding: 0 20px;
+}

@@ -1,0 +1,23 @@
+/* ------------ Page title ------------ */
+.page-title {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title h1 {
+    margin: 10px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title h1::after {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    background-color: brown;
+    margin-top: 5px;
+}
