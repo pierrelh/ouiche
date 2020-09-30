@@ -1,0 +1,17 @@
+/* ------------ Share ------------ */
+.share-box {
+    /* background-color:red; */
+    height:30px;
+}
+
+.share-box ul.list li {
+    margin:0 2px;
+}
+
+.share-box ul.list li img {
+    width:20px;
+}
+
+.share-box ul.list li img:hover {
+    width:28px;
+}
