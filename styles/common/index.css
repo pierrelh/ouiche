@@ -14,11 +14,11 @@
     padding: 7px;
     margin: 8px;
     background-color: white;
-    box-shadow: #d3d3d391 0px 4px 15px;
     transition: ease-in-out 0.2s;
 }
 
 .page-body .list li:hover {
+    box-shadow: rgb(95, 95, 95) 0px 4px 15px;
     cursor: pointer;
 }
 

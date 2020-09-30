@@ -12,7 +12,8 @@
 }
 
 .word-box #Replique {
-    margin: 20px 50px;
+    margin: 15px 50px;
+    font-size: 18;
 }
 
 .word-box .word-title {
@@ -24,9 +25,10 @@
 }
 
 .word-title p {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     text-transform: capitalize;
+    font-family: 'Passion One', cursive;
 }
 
 .share-box ul {
