@@ -14,7 +14,7 @@
 .page-body .list li {
     padding: 7px;
     margin: 8px;
-    font-size: 20;
+    font-size: 20px;
     background-color: #fdaf16;
     color: white;
     border-radius: 6px;
@@ -24,7 +24,6 @@
 .page-body .list li:hover {
     box-shadow: white 6px 6px;
     cursor: pointer;
-    text-decoration: dotted;
 }
 
 .page-body .words-list {
