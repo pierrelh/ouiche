@@ -11,14 +11,14 @@ fetch(server + "/functions/getDatas/getWords.php")
     document.getElementById("words-list").innerHTML = "";
     
     // Loop in json
-    for (const key in response) {
+    for (const key in response) (function(key){
       if (response.hasOwnProperty(key)) {
         // Create <li> element
         var li = document.createElement("LI");
         // Create <p> element
         var p = document.createElement("P");
         // Set <p> attributes
-        p.dataset.word_id = response[key].word_id;
+        p.id = key;
         p.dataset.word_uuid = response[key].word_uuid;
         p.dataset.word_libelle = response[key].word_libelle;
         p.dataset.word_citation = response[key].word_citation;
@@ -31,7 +31,11 @@ fetch(server + "/functions/getDatas/getWords.php")
 
         // Append <li> in HTML code
         document.getElementById("words-list").appendChild(li); 
+
+        document.getElementById(key).onclick = function () {
+          singleVueUpdate(key);
+        };
       }
-    }
+    })(key);
     
   })
