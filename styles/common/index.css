@@ -21,7 +21,7 @@
 }
 
 .page-body .list li:hover {
-    box-shadow: rgb(255, 255, 255) 0px 4px 15px;
+    box-shadow: orange 10px 10px orange;
     cursor: pointer;
 }
 
