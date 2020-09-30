@@ -2,12 +2,12 @@
 
     <div class="word-title">
         <div class="audio-btn">
-            <audio src=""></audio>
+            <audio id="AudioPlayer" autoplay src=""></audio>
         </div>
-        <p>Titre de la réplique</p>
+        <p id="RepliqueTitle">Titre de la réplique</p>
     </div>
 
-    <p>Réplique</p>
+    <p id="Replique">Réplique</p>
 
     <div class="share-box">
         <ul class="list">
