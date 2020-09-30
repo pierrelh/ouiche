@@ -6,7 +6,6 @@ var server = "https://" + window.location.hostname;
 fetch(server + "/functions/getDatas/getWords.php")
   .then(response => response.json())
   .then(function(response) {
-    console.log(response);
 
     document.getElementById("words-list").innerHTML = "";
     
