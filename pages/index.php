@@ -14,4 +14,4 @@
 
 </div>
 
-<script src="scripts/call.js"></script>
+<script src="../scripts/call.js"></script>
