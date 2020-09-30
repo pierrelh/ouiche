@@ -19,8 +19,7 @@ html {
 }
 
 .page-title h1 {
-  margin-bottom: 25px;
-  text-align: center;
+  margin: 10px 0 20px 0;
 }
 
 .page-title h1::after {
@@ -35,8 +34,10 @@ html {
 /* ------------ Page body ------------ */
 .page-body {
   display: flex;
-  margin-top: 50px;
+  margin: 20px 0;
+  padding: 15px;
   justify-content: center;
+  color: white;
 }
 
 .list {
@@ -50,14 +51,16 @@ html {
   margin: 5px;
   background-color: white;
   box-shadow: #d3d3d391 0px 4px 15px;
+  transition: ease-in-out 0.3s;
 }
 
 .page-body .list li:hover {
-  box-shadow: rgb(61, 61, 61) 0px 4px 15px;
+  box-shadow: rgb(95, 95, 95) 0px 4px 15px;
 }
 
 .page-body .words-list {
-  max-width: 1000px;
+  max-width: 1400px;
+  padding: 20px;
 }
 
 .word-box {
@@ -79,3 +82,7 @@ html {
   background-color: white;
 }
 
+.share-box li {
+  padding: 7px;
+  margin: 5px;
+}
