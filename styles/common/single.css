@@ -7,7 +7,7 @@
     padding: 15px;
     background-color: #ED7485;
     color: white;
-    transition: .8s;
+    transition: .5s;
 
 }
 
@@ -31,6 +31,7 @@
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Passion One', cursive;
+    padding-top: 10px;
 }
 
 .share-box ul {
