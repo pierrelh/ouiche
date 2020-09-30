@@ -1,5 +1,5 @@
 // Pour test
-// fetch("../scripts/test.json")
+//fetch("../scripts/test.json")
 
 // Fetch data from PHP file
 var server = "https://" + window.location.hostname;
@@ -7,6 +7,8 @@ fetch(server + "/functions/getDatas/getWords.php")
   .then(response => response.json())
   .then(function(response) {
     console.log(response);
+
+    document.getElementById("words-list").innerHTML = "";
     
     // Loop in json
     for (const key in response) {
@@ -16,19 +18,19 @@ fetch(server + "/functions/getDatas/getWords.php")
         // Create <p> element
         var p = document.createElement("P");
         // Set <p> attributes
-        p.setAttribute("word_id", response[key].word_id);
-        p.setAttribute("word_uuid", response[key].word_uuid);
-        p.setAttribute("word_libelle", response[key].word_libelle);
-        p.setAttribute("word_citation", response[key].word_citation);
-        p.setAttribute("word_file_url", response[key].word_file_url);
-        p.setAttribute("word_file_extention", response[key].word_file_extention);
+        p.dataset.word_id = response[key].word_id;
+        p.dataset.word_uuid = response[key].word_uuid;
+        p.dataset.word_libelle = response[key].word_libelle;
+        p.dataset.word_citation = response[key].word_citation;
+        p.dataset.word_file_url = response[key].word_file_url;
+        p.dataset.word_file_extention = response[key].word_file_extention;
         // Fill <li> with text
         var textnode = document.createTextNode(response[key].word_uuid);
         li.appendChild(p);
         p.appendChild(textnode);
 
         // Append <li> in HTML code
-        document.getElementsByClassName("list")[0].appendChild(li); 
+        document.getElementById("words-list").appendChild(li); 
       }
     }
     
