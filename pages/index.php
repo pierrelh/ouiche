@@ -7,7 +7,10 @@
 <div class="page-body">
 
     <div class="word-box">
-        <p>Titre de la réplique</p>
+        <div class="word-title">
+            <div class="audio-btn"></div>
+            <p>Titre de la réplique</p>
+        </div>
         <p>Réplique</p>
         <div class="share-box">
             <ul class="list">
