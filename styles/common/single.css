@@ -9,7 +9,7 @@
     color: white;
 }
 
-.word-box p:nth-child(2) {
+.word-box:nth-child(2) p {
     margin: 20px 50px;
 }
 
