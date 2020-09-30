@@ -16,3 +16,107 @@ html {
   padding: 0 !important;
   transition: .8s;
 }
+/* ------------ Page title ------------ */
+.page-title {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title h1 {
+  margin: 10px 0 20px 0;
+}
+
+.page-title h1::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  background-color: brown;
+  margin-top: 5px;
+}
+
+/* ------------ Word box section ------------ */
+.word-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  padding: 15px;
+  background-color: darkblue;
+  color: white;
+}
+
+.word-box .word-title {
+  display: flex;
+}
+
+.word-box .word-title .audio-btn {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
+.word-title p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.share-box ul {
+  width: 170px;
+  justify-content: space-between;
+}
+
+/* ------------ Words list section ------------ */
+.page-body {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page-body .list li {
+  padding: 7px;
+  margin: 5px;
+  background-color: white;
+  box-shadow: #d3d3d391 0px 4px 15px;
+  transition: ease-in-out 0.3s;
+}
+
+.page-body .list li:hover {
+  box-shadow: rgb(95, 95, 95) 0px 4px 15px;
+}
+
+.page-body .words-list {
+  max-width: 1400px;
+  padding: 20px;
+}
+
+
+
+
+
+/* ------------ Share ------------ */
+
+.share-box {
+  /* background-color:red; */
+  height:30px;
+}
+
+.share-box ul.list li {
+  margin:0 2px;
+}
+
+.share-box ul.list li img {
+  width:20px;
+}
+
+.share-box ul.list li img:hover {
+  width:28px;
+}
