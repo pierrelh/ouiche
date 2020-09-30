@@ -1,4 +1,4 @@
-<div class="word-box">
+<div id="SingleVue" class="word-box hidden">
 
     <div class="word-title">
         <div class="audio-btn">
