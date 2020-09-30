@@ -1,0 +1,38 @@
+/* ------------ Word box section ------------ */
+.word-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #ED7485;
+    color: white;
+    transition: .8s;
+
+}
+
+.word-box #Replique {
+    margin: 15px 50px;
+    font-size: 18;
+}
+
+.word-box .word-title {
+    display: flex;
+}
+
+.word-box .word-title .audio-btn {
+    display: block;
+}
+
+.word-title p {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Passion One', cursive;
+}
+
+.share-box ul {
+    width: 120px;
+    justify-content: space-between;
+    font-size: 14px;
+}
