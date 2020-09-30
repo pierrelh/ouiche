@@ -46,7 +46,7 @@ html {
 }
 
 .word-box p:nth-child(2) {
-  margin: 0 50px;
+  margin: 20 50px;
 }
 
 .word-box .word-title {
@@ -63,8 +63,9 @@ html {
 }
 
 .share-box ul {
-  width: 170px;
+  width: 130px;
   justify-content: space-between;
+  font-size: 10px;
 }
 
 /* ------------ Words list section ------------ */
@@ -89,6 +90,7 @@ html {
 
 .page-body .list li:hover {
   box-shadow: rgb(95, 95, 95) 0px 4px 15px;
+  cursor: pointer;
 }
 
 .page-body .words-list {
