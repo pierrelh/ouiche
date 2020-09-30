@@ -1,7 +1,7 @@
         <div class="page-body">
 
             <div class="words-list">
-                <ul class="list">
+                <ul class="list" id="words-list">
                     <li>Mot</li>
                 </ul>
             </div>
