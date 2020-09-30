@@ -7,6 +7,8 @@
     padding: 15px;
     background-color: darkblue;
     color: white;
+    transition: .8s;
+
 }
 
 .word-box:nth-child(2) p {
