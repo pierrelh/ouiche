@@ -13,19 +13,43 @@ html {
 /* ------------ Page title ------------ */
 .page-title {
   font-size: 20px;
+  justify-content: center;
+}
+
+.page-title h1 {
+  margin-bottom: 30px;
+}
+
+.page-title h1::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100px;
+  background-color: brown;
+  margin-top: 5px;
 }
 
 /* ------------ Page body ------------ */
 .page-body {
   display: flex;
+  margin-top: 50px;
 }
 
 .list {
   list-style: none;
+  display: flex;
+}
+
+.page-body .list li {
+  padding: 5px;
+  background-color: white;
+  box-shadow: #d3d3d391 0px 4px 15px;
 }
 
 .word-box {
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .word-box .word-title {
