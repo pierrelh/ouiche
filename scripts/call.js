@@ -71,7 +71,6 @@ fetch(server + "/functions/getDatas/getWords.php")
     if (keyword != "" && keyword != "/") {
       //Remove the "/" from the keyword
       var keyword = keyword.substring(1);
-      console.log("calling singleVueUpdateKeyword function...")
       //call js function
       singleVueUpdateKeyword(keyword);
     }
