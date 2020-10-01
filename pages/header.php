@@ -33,4 +33,5 @@
 
         <div id="random">
             <span class="mdi mdi-play-box-multiple"></span>
+            <p>Réplique aléatoire</p>
         </div>
