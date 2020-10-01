@@ -32,5 +32,5 @@
         </div>
 
         <div id="random">
-            <span class="mdi mdi-play-box-multiple mdi-spin"></span>
+            <span class="mdi mdi-play-box-multiple"></span>
         </div>
