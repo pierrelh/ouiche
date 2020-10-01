@@ -16,11 +16,14 @@
     padding: 5px 7px;
     margin: 10px;
     font-size: 22px;
-    font-family: 'Cairo', sans-serif;
     background-color: #fdaf16;
     color: white;
     border-radius: 6px;
     transition: ease-in-out 0.2s;
+}
+
+.page-body .list li p {
+    font-family: 'Cairo', sans-serif;
 }
 
 .page-body .list li:hover {
