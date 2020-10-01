@@ -23,7 +23,7 @@ function singleVueUpdate(identifier) {
 function singleVueUpdateKeyword(keyword) {
     //Get element id
     console.log(keyword);
-    var element = document.querySelector("[data-word_uuid='"+keyword+"']");
+    var element = document.querySelector("[data-word_uuid='poulet']");
     console.log(element);
     singleVueUpdate(element.id);
 }
