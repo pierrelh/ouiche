@@ -30,3 +30,7 @@
             <p>Les répliques les plus classes du monde</p>
             <p>Extraits de OSS 117 - Le Caire nid d'espion</p>
         </div>
+
+        <div id="random">
+            <span class="mdi mdi-sync mdi-spin"></span>
+        </div>
