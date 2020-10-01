@@ -36,24 +36,29 @@
 #random {
     display: flex;
     justify-content: center;
-    font-size: 40px;
     margin-top: 40px;
-    margin-right: 15px;
+    color: white;
+    background-color: #fdaf16;
+    transition: 0.3s;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#random:hover {
+    background-color: white;
+    color: #fdaf16;
 }
 
 #random span {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
     width: 60px;
     height: 60px;
-    cursor: pointer;
-    background-color: #fdaf16;
-    border-radius: 50%;
+    font-size: 40px;
+    margin-right: 15px;
 }
 
-#random span:hover {
-    background-color: white;
-    color: #fdaf16;
+#random p {
+    font-size: 30px;
 }
