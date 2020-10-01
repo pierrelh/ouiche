@@ -8,7 +8,7 @@ function updateLink(identifier) {
     var uuid = "";
     if (identifier !== undefined) {
         var chosedWord = document.getElementById(identifier);
-        uuid = chosedWord.getAttribute('data-word_uuid');
+        uuid = "/" + chosedWord.getAttribute('data-word_uuid');
     }
 
     document.getElementById("twitter-button").href = "https://twitter.com/intent/tweet?text=" + current_url + uuid;
