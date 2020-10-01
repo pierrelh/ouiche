@@ -9,6 +9,8 @@
         <link rel="stylesheet" type="text/css" href="styles/common/share.css"/>
         <link rel="stylesheet" type="text/css" href="styles/common/index.css"/>
         <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/77af2c7291.js" crossorigin="anonymous"></script>
+
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
