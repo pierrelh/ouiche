@@ -8,9 +8,12 @@
   $keyword = $_SERVER['REQUEST_URI'];
   if ($keyword != "" && $keyword != "/") {
     //If a keyword is in the url
+
+    //Remove the "/" from the keyword
+    $keyword = ltrim($keyword, '/'); 
     //call js function
     echo  "<script type='text/javascript'>
-            singleVueUpdateKeyword(".$keyword.");
+            singleVueUpdateKeyword('".$keyword."');
           </script>";
     
   }
