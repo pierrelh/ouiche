@@ -5,7 +5,7 @@
             <audio id="AudioPlayer" autoplay src=""></audio>
         </div>
         <div id="play">
-            <span class="mdi mdi-play-pause"></span>
+            <span class="mdi mdi-volume-high"></span>
         </div>
         <p id="RepliqueTitle">Titre de la réplique</p>
     </div>
