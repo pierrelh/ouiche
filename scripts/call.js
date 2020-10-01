@@ -65,13 +65,15 @@ fetch(server + "/functions/getDatas/getWords.php")
       singleVueUpdate(random);
       updateLink(random);
     };
+
+    var keyword = location.pathname;
+    //Routing and get the keyword from the url
+    if (keyword != "" && keyword != "/") {
+      //Remove the "/" from the keyword
+      var keyword = keyword.substring(1);
+      console.log("calling singleVueUpdateKeyword function...")
+      //call js function
+      singleVueUpdateKeyword(keyword);
+    }
   });
 
-  var keyword = location.pathname;
-  //Routing and get the keyword from the url
-  if (keyword != "" && keyword != "/") {
-    //Remove the "/" from the keyword
-    var keyword = keyword.substring(1);
-    //call js function
-    singleVueUpdateKeyword(keyword);
-  }
