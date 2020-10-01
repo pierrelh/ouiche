@@ -33,6 +33,7 @@ fetch(server + "/functions/getDatas/getWords.php")
 
         document.getElementById(key).onclick = function () {
           singleVueUpdate(key);
+          updateLink(key);
         };
       }
     })(key);
