@@ -36,7 +36,14 @@
 #random {
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 50px;
     color: white;
     margin-top: 40px;
+}
+
+#random span {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
