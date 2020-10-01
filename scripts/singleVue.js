@@ -22,6 +22,8 @@ function singleVueUpdate(identifier) {
 //Update the single vue with keyword (routing)
 function singleVueUpdateKeyword(keyword) {
     //Get element id
+    console.log(keyword);
     var element = document.querySelector("[data-word_uuid='"+keyword+"']");
+    console.log(element);
     singleVueUpdate(element.id);
 }
