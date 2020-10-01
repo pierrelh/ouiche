@@ -36,11 +36,12 @@
 #random {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 40px auto 0 auto;
     color: white;
     background-color: #fdaf16;
     transition: 0.3s;
-    border-radius: 20px;
+    border-radius: 50px;
     cursor: pointer;
     width: fit-content;
 }
@@ -61,4 +62,5 @@
 
 #random p {
     font-size: 20px;
+    text-transform: uppercase;
 }
