@@ -30,4 +30,5 @@
 .page-title p {
     text-transform: uppercase;
     font-family: 'Passion One', sans-serif;
+    padding: 0 30px;
 }
