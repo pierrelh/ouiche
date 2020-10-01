@@ -39,3 +39,12 @@ fetch(server + "/functions/getDatas/getWords.php")
     })(key);
     
   })
+
+  var keyword = location.pathname;
+  //Routing and get the keyword from the url
+  if (keyword != "" && keyword != "/") {
+    //Remove the "/" from the keyword
+    var keyword = keyword.substring(1);
+    //call js function
+    singleVueUpdateKeyword(keyword);
+  }
