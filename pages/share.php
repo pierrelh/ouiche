@@ -2,18 +2,18 @@
     <ul class="list">
         <li class="twitter">
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=hi" target="_blank" id="twitter-button">
-                <img src="img/twitter.png" alt="Twitter">
+                <i class="fab fa-twitter"></i>
             </a>
         </li>
 
         <li class="facebook" id="facebook">
             <a href="https://www.facebook.com/sharer/sharer.php?u=hi" target="_blank" id="facebook-button">
-                <img src="img/facebook.png" alt="Facebook">
+                <i class="fab fa-facebook-f"></i>
             </a>
         </li>
 
         <li class="link" onclick="copyUrl();">
-            <img src="img/url.png" alt="Link">
+            <i class="fas fa-link"></i>
             <textarea id="url-link" style="position:absolute; top:-500px;"></textarea>
         </li>
     </ul>
