@@ -23,6 +23,23 @@
     display: flex;
 }
 
+#play {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+}
+
+#play span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
 .word-box .word-title .audio-btn {
     display: block;
 }
