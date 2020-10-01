@@ -12,6 +12,7 @@ fetch(server + "/functions/getDatas/getWords.php")
     var compteur = 0;
 
     // Loop in json
+
     for (const key in response)
       (function (key) {
         if (response.hasOwnProperty(key)) {
@@ -65,3 +66,12 @@ fetch(server + "/functions/getDatas/getWords.php")
       updateLink(random);
     };
   });
+
+  var keyword = location.pathname;
+  //Routing and get the keyword from the url
+  if (keyword != "" && keyword != "/") {
+    //Remove the "/" from the keyword
+    var keyword = keyword.substring(1);
+    //call js function
+    singleVueUpdateKeyword(keyword);
+  }
