@@ -1,0 +1,37 @@
+/* ------------ Words list section ------------ */
+.page-body {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-body .list li {
+    margin: 10px;
+    font-size: 22px;
+    background-color: #fdaf16;
+    color: white;
+    border-radius: 6px;
+    transition: ease-in-out 0.2s;
+}
+
+.page-body .list li p {
+    font-family: 'Cairo', sans-serif;
+    padding: 0 10px;
+}
+
+.page-body .list li:hover {
+    box-shadow: white 6px 6px;
+    cursor: pointer;
+}
+
+.page-body .words-list {
+    max-width: 1000px;
+    padding: 0 20px;
+}

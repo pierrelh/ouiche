@@ -1,0 +1,21 @@
+/* ------------ Share ------------ */
+.share-box {
+    /* background-color:red; */
+    height:30px;
+}
+
+.share-box ul.list li {
+    margin:0 2px;
+}
+
+.share-box ul.list li img, .share-box ul.list li span::before {
+    width:20px;
+    font-size:20px;
+    color:#FFF;
+}
+
+.share-box ul.list li img:hover, .share-box ul.list li span:hover::before {
+    width:28px;
+    font-size:28px;
+    cursor:pointer;
+}

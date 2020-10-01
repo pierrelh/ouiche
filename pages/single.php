@@ -1,4 +1,4 @@
-<div class="word-box">
+<div id="SingleVue" class="word-box hidden">
 
     <div class="word-title">
         <div class="audio-btn">
@@ -9,12 +9,8 @@
 
     <p id="Replique">Réplique</p>
 
-    <div class="share-box">
-        <ul class="list">
-            <li>Twitter</li>
-            <li>Facebook</li>
-        </ul>
-    </div>
+    <?php require __DIR__ . '/share.php'; ?>
 
 </div>
 <script src="scripts/singleVue.js"></script>
+<script src="scripts/share.js"></script>
