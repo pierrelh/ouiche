@@ -4,6 +4,9 @@
         <div class="audio-btn">
             <audio id="AudioPlayer" autoplay src=""></audio>
         </div>
+        <div id="play">
+            <span class="mdi mdi-play-pause"></span>
+        </div>
         <p id="RepliqueTitle">Titre de la réplique</p>
     </div>
 

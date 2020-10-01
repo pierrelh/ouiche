@@ -2,7 +2,7 @@
 
             <div class="words-list">
                 <ul class="list" id="words-list">
-                    <li>Mot</li>
+                    <li>...</li>
                 </ul>
             </div>
 

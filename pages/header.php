@@ -8,7 +8,9 @@
         <link rel="stylesheet" type="text/css" href="styles/common/single.css"/>
         <link rel="stylesheet" type="text/css" href="styles/common/share.css"/>
         <link rel="stylesheet" type="text/css" href="styles/common/index.css"/>
-        <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto&family=Cairo:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,4 +29,8 @@
             <h1>Ouiches</h1>
             <p>Les répliques les plus classes du monde</p>
             <p>Extraits de OSS 117 - Le Caire nid d'espion</p>
+        </div>
+
+        <div id="random">
+            <span class="mdi mdi-play-box-multiple mdi-spin"></span>
         </div>

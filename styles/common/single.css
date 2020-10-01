@@ -13,13 +13,31 @@
 
 .word-box #Replique {
     margin: 15px 30px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
     text-align: center;
     max-width: 1000px;
 }
 
 .word-box .word-title {
     display: flex;
+}
+
+#play {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 40px;
+}
+
+#play span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
 
 .word-box .word-title .audio-btn {
