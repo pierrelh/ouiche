@@ -16,6 +16,7 @@ function singleVueUpdate(identifier) {
         document.getElementById("Replique").innerHTML = citation;
         document.getElementById("RepliqueTitle").innerHTML = "#" + word;
         document.getElementById("AudioPlayer").src = url;
+        document.getElementById("AudioPlayer").play();
     }
 }
 
