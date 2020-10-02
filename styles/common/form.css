@@ -22,7 +22,7 @@
 }
 
 .form input[type="text"] {
-    max-width: 350px;
+    width: 350px;
     border: none;
     border-bottom: 1px white solid;
     background-color: transparent;
