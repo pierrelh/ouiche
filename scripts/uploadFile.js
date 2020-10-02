@@ -2,13 +2,11 @@ document.getElementById("send").addEventListener("click", function(){
     event.preventDefault()
     var file = document.getElementById('file').files[0]; //Get the file
     if (file != undefined) {
-      var formData = new FormData(document.getElementById('formUpload'));
+      var formData = new FormData(document.getElementById('movie-form'));
       formData.delete('file');
       //Check if all form's field aren't empty
-      if (document.getElementById('fileName').value == "" || document.getElementById('fileAuthor').value == "") {
-        document.getElementById('error-msg').innerHTML = ""
-        var errormsg = document.createTextNode("Merci de remplir tous les champs.");
-        document.getElementById("error-msg").appendChild(errormsg);
+      if (document.getElementById('quote').value == "" || document.getElementById('title').value == "") {
+        alert("Merci de remplir tous les champs.");
         return;
       }
 
@@ -22,7 +20,6 @@ document.getElementById("send").addEventListener("click", function(){
       // Update progress
       audioFileXhr.upload.addEventListener("progress", function(e) {
         var progress = Math.round((e.loaded * 100.0) / e.total);
-
         console.log("progress: " + progress + "%");
       });
   
