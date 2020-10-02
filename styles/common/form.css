@@ -6,6 +6,8 @@
     font-size: 20px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .form p {
@@ -24,6 +26,7 @@
     border: none;
     border-bottom: 1px white solid;
     background-color: transparent;
+    caret-color: white;
 }
 
 .form input[type="text"]:focus {
@@ -32,8 +35,25 @@
     border-bottom: 1px white solid;
 }
 
-.form-quote input {
+.form .form-quote input.quote {
     width: 350px;
+}
+
+.form .file-form input {
+    background-color: #fdaf16;
+    color: white;
+    transition: 0.3s;
+}
+
+.form .file-form input:hover {
+    background-color: white;
+    color: #fdaf16;
+    cursor: pointer;
+}
+
+.form .file-form input:focus {
+    outline: none;
+    border: none;
 }
 
 .form .form-submit input {
@@ -43,9 +63,12 @@
     border: none;
     color: white;
     transition: 0.3s;
+    border-radius: 6px;
+    font-size: 20px;
 }
 
 .form .form-submit input:hover {
     background-color: white;
     color: #fdaf16;
+    cursor: pointer;
 }
