@@ -34,8 +34,9 @@ document.getElementById("send").addEventListener("click", function(){
           processData: false,
           data: formData,
           success: function(data){
-              console.log(data);
               alert("upload succeed")
+              // Reload the page
+              document.location.reload();
           }
         });
       }
