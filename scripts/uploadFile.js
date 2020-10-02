@@ -12,23 +12,16 @@ document.getElementById("barSpan2").addEventListener("click", function(){
       }
 
       //Setting the cloudinary parameters
-      var url = `https://api.cloudinary.com/v1_1/htko7uqqo/upload`;
+      var url = `https://api.cloudinary.com/v1_1/hfw8lod60/upload`;
       var audioFile = new FormData();
       var audioFileXhr = new XMLHttpRequest();
       audioFileXhr.open('POST', url, true);
       audioFileXhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
   
-      // Update progress
-      audioFileXhr.upload.addEventListener("progress", function(e) {
-        var progress = Math.round((e.loaded * 100.0) / e.total);
-        document.getElementById('progressBarVideo').style.width = progress + "%";
-        document.getElementById('textProgressBarVideo').innerHTML = progress + "%";
-      });
-  
       function uploadFile() {
         var server = "https://" + window.location.hostname;
         $.ajax({
-          url: server + "/functions/files/uploadFile.php",
+          url: server + "/functions/uploadFile.php",
           type: "POST",
           dataType: 'script',
           cache: false,
@@ -37,13 +30,12 @@ document.getElementById("barSpan2").addEventListener("click", function(){
           data: formData,
           success: function(data){
               alert("upload succeed")
-              getFiles('file_id', 'DESC');
           }
         });
       }
   
       //Parameters for file upload
-      audioFile.append('upload_preset', 'unsigned_video');
+      audioFile.append('upload_preset', 'unsigned_files');
       audioFile.append('tags', 'browser_upload'); // Optional - add tag for image admin in Cloudinary
       audioFile.append('file', file);
       audioFileXhr.send(audioFile);
