@@ -1,0 +1,11 @@
+/* ------------ Form ------------ */
+.form {
+    padding-bottom: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+.form label {
+    color: white;
+}

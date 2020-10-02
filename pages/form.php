@@ -9,8 +9,8 @@
             <input type="text" name="quote" id="quote" required>
         </div>
         <div class="file-form">
-            <label for="file">Sélectionner un fichier audio</label>
-            <input type="file" id="file" name="file">
+            <label for="file">Sélectionner un fichier audio :</label>
+            <input type="file" id="file" name="file" required>
         </div>
         <div class="form-submit">
             <input type="submit" value="Ajouter">
