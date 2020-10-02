@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="styles/common/single.css"/>
         <link rel="stylesheet" type="text/css" href="styles/common/share.css"/>
         <link rel="stylesheet" type="text/css" href="styles/common/index.css"/>
+        <link rel="stylesheet" type="text/css" href="styles/common/form.css"/>
         
         <link href="https://fonts.googleapis.com/css2?family=Passion+One&family=Roboto&family=Cairo:wght@400&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
