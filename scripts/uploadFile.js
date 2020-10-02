@@ -36,6 +36,7 @@ document.getElementById("barSpan2").addEventListener("click", function(){
           processData: false,
           data: formData,
           success: function(data){
+              console.log(data);
               alert("upload succeed")
           }
         });
