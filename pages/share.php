@@ -12,8 +12,9 @@
             </a>
         </li>
 
-        <li class="link" onclick="copyUrl();">
+        <li class="link" onclick="copyUrl(this);">
             <span class="mdi mdi-link-variant"></span>
+            <div class="copied">Copié !</div>
             <textarea id="url-link" style="position:absolute; top:-500px;"></textarea>
         </li>
     </ul>
