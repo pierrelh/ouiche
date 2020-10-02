@@ -19,7 +19,7 @@
                                                     $filtered['title'],
                                                     $filtered['quote'],
                                                     $_POST['file_url'],
-                                                    ('extention')));
+                                                    'extention'));
     print $result;
 
 ?>
