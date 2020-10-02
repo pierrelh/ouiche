@@ -18,6 +18,12 @@ document.getElementById("barSpan2").addEventListener("click", function(){
       audioFileXhr.open('POST', url, true);
       audioFileXhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
   
+      // Update progress
+      audioFileXhr.upload.addEventListener("progress", function(e) {
+        var progress = Math.round((e.loaded * 100.0) / e.total);
+        console.log = "progress: " + progress + "%";
+      });
+  
       function uploadFile() {
         var server = "https://" + window.location.hostname;
         $.ajax({
