@@ -1,6 +1,6 @@
 <div class="form">
+    <form enctype="multipart/form-data" method="post" class="movie-form" id="movie-form">
     <p>Ajouter une réplique</p>
-    <form action="" method="get" class="movie-form" id="movie-form">
         <div class="title-form">
             <label for="title">Titre de la réplique :</label>
             <input type="text" name="title" id="title" required>
