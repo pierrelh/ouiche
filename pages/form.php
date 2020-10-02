@@ -3,7 +3,7 @@
     <form enctype="multipart/form-data" method="post" class="movie-form" id="movie-form">
     <p>Ajouter une réplique</p>
         <div class="title-form">
-            <label for="title">Titre de la réplique :</label>
+            <label for="title">Titre :</label>
             <input type="text" name="title" id="title" required>
         </div>
         <div class="quote-form">
