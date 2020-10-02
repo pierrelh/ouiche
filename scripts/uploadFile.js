@@ -1,4 +1,5 @@
-document.getElementById("barSpan2").addEventListener("click", function(){
+document.getElementById("movie-form").addEventListener("click", function(){
+    
     var file = document.getElementById('file').files[0]; //Get the file
     if (file != undefined) {
       var formData = new FormData(document.getElementById('formUpload'));
