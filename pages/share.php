@@ -15,7 +15,7 @@
         <li class="link" onclick="copyUrl(this);">
             <span class="mdi mdi-link-variant"></span>
             <div class="copied">Copié !</div>
-            <textarea id="url-link" style="position:absolute; top:-500px;"></textarea>
+            <textarea id="url-link" style="position:absolute; top:-10000px; opacity:0; pointer-events: none;"></textarea>
         </li>
     </ul>
 </div>
