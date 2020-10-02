@@ -27,5 +27,11 @@ function singleVueUpdateKeyword(keyword) {
 }
 
 document.getElementById("playButton").addEventListener("click", function(){
-   document.getElementById("AudioPlayer").play();
+    var audioPlayer = document.getElementById("AudioPlayer");
+    if (audioPlayer.duration > 0 && !audioPlayer.paused) {
+        audioPlayer.pause();
+        audioPlayer.currentTime = 0;
+    } else {
+        audioPlayer.play();
+    }
 });
