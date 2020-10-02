@@ -12,12 +12,14 @@
                             (word_uuid,
                             word_libelle,
                             word_citation,
-                            word_file_url)
+                            word_file_url,
+                            word_file_extention)
                 VALUES ($1, $2, $3, $4, $5)";
   $result =  pg_query_params($db, $selectSql, array($uuid,
                                                     $filtered['title'],
                                                     $filtered['quote'],
-                                                    $_POST['file_url']));
+                                                    $_POST['file_url'],
+                                                    ('extention')));
     print $result;
 
 ?>
