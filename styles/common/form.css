@@ -22,7 +22,7 @@
 }
 
 .form input[type="text"] {
-    width: 250px;
+    max-width: 350px;
     border: none;
     border-bottom: 1px white solid;
     background-color: transparent;
@@ -33,10 +33,6 @@
     outline: none;
     border: none;
     border-bottom: 1px white solid;
-}
-
-.form .form-quote input[name="quote"] {
-    width: 350px;
 }
 
 .form .file-form input:focus {
