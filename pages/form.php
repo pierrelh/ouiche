@@ -1,5 +1,5 @@
 <div class="form">
-    <form action="" method="get" class="movie-form">
+    <form action="" method="get" class="movie-form" id="movie-form">
         <div class="title-form">
             <label for="title">*Titre de la réplique :</label>
             <input type="text" name="title" id="title" required>
