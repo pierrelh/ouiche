@@ -1,10 +1,7 @@
 <?php
 
-  include_once($_SERVER['DOCUMENT_ROOT']."/functions/filter.php");
-  $filtered = array_map('map_entities', $_POST);
-
   include_once($_SERVER['DOCUMENT_ROOT']."/functions/createSlug.php");
-  $uuid = createSlug('test');
+  $uuid = createSlug($_POST['title']);
 
   include_once($_SERVER['DOCUMENT_ROOT']."/functions/connexion.php");
   $db = connect();
@@ -12,13 +9,14 @@
                             (word_uuid,
                             word_libelle,
                             word_citation,
-                            word_file_url)
+                            word_file_url,
+                            word_file_extention)
                 VALUES ($1, $2, $3, $4, $5)";
-  $result =  pg_query_params($db, $selectSql, array($filtered['file_name'],
+  $result =  pg_query_params($db, $selectSql, array($uuid,
+                                                    $_POST['title'],
+                                                    $_POST['quote'],
                                                     $_POST['file_url'],
-                                                    $_POST['file_image'],
-                                                    $filtered['file_author'],
-                                                    $filtered['file_album']));
-
+                                                    'extention'));
+    print $result;
 
 ?>
