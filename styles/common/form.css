@@ -1,8 +1,9 @@
 /* ------------ Form ------------ */
 .form {
     padding-bottom: 60px;
-    max-width: 800px;
+    max-width: 700px;
     margin: 0 auto;
+    padding: 0 15px;
     font-size: 20px;
     display: flex;
     justify-content: center;
@@ -35,7 +36,7 @@
     border-bottom: 1px white solid;
 }
 
-.form .form-quote input.quote {
+.form .form-quote input[name="quote"] {
     width: 350px;
 }
 
@@ -45,12 +46,6 @@
     transition: 0.3s;
 }
 
-.form .file-form input:hover {
-    background-color: white;
-    color: #fdaf16;
-    cursor: pointer;
-}
-
 .form .file-form input:focus {
     outline: none;
     border: none;
@@ -58,7 +53,8 @@
 
 .form .form-submit input {
     width: fit-content;
-    padding: 5px 10px;
+    margin-top: 20px;
+    padding: 0px 10px 3px 10px;
     background-color: #fdaf16;
     border: none;
     color: white;
