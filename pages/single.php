@@ -2,7 +2,7 @@
 
     <div class="word-title">
         <div class="audio-btn">
-            <audio id="AudioPlayer" src=""></audio>
+            <audio id="AudioPlayer" autoplay src=""></audio>
         </div>
         <div id="play">
             <span id="playButton" class="mdi mdi-volume-high"></span>
