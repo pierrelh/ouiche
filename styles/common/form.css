@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+}
+
 .form p {
     font-family: 'Passion One', sans-serif;
     font-size: 35px;
@@ -42,6 +47,10 @@
 .form .file-form input:focus {
     outline: none;
     border: none;
+}
+
+.form .form-submit {
+    margin: auto;
 }
 
 .form .form-submit input {
