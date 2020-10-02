@@ -36,7 +36,7 @@ fetch(server + "/functions/getDatas/getWords.php")
           a.style.textDecoration = "inherit";
 
           // Fill <li> with text
-          var textnode = document.createTextNode("#" + response[key].word_uuid);
+          var textnode = document.createTextNode("#" + response[key].word_libelle);
           li.appendChild(p);
           p.appendChild(a);
           a.appendChild(textnode);
