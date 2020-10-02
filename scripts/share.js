@@ -17,9 +17,20 @@ function updateLink(identifier) {
 
 }
 
-function copyUrl() {
+function copyUrl(element) {
+    console.log(element);
+    var child = element.getElementsByClassName("copied");
+    child[0].classList.remove("copied-animation");
+    void child[0].offsetWidth;
+    child[0].classList.add("copied-animation");
+    console.log(child[0]);
+
     var url = document.getElementById("url-link");
     url.select();
     url.setSelectionRange(0, 99999); /*mobile*/
     document.execCommand("copy");
+}
+
+function copiedAnim(element){
+    console.log("copy");
 }
