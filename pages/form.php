@@ -18,3 +18,4 @@
         </div>
     </form>
 </div>
+<script src="scripts/uploadFile.js"></script>

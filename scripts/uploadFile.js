@@ -1,5 +1,5 @@
-document.getElementById("movie-form").addEventListener("click", function(){
-    
+document.getElementById("send").addEventListener("click", function(){
+    event.preventDefault()
     var file = document.getElementById('file').files[0]; //Get the file
     if (file != undefined) {
       var formData = new FormData(document.getElementById('formUpload'));
