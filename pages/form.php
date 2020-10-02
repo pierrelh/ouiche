@@ -1,3 +1,4 @@
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <div class="form">
     <form enctype="multipart/form-data" method="post" class="movie-form" id="movie-form">
     <p>Ajouter une réplique</p>
