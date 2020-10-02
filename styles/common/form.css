@@ -35,6 +35,10 @@
     border-bottom: 1px white solid;
 }
 
+.form .file-form input {
+    color: white;
+}
+
 .form .file-form input:focus {
     outline: none;
     border: none;
@@ -42,7 +46,7 @@
 
 .form .form-submit input {
     width: fit-content;
-    margin-top: 20px;
+    margin-top: 12px;
     padding: 0px 10px 3px 10px;
     background-color: #fdaf16;
     border: none;
