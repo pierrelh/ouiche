@@ -8,8 +8,9 @@
 
         </div>
 
-        <script src="scripts/call.js"></script>
+        <?php require __DIR__ . '/form.php'; ?>
 
+        <script src="scripts/call.js"></script>
 
     </body>
 </html>
