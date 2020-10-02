@@ -2,10 +2,10 @@
 
     <div class="word-title">
         <div class="audio-btn">
-            <audio id="AudioPlayer" autoplay src=""></audio>
+            <audio id="AudioPlayer" src=""></audio>
         </div>
         <div id="play">
-            <span class="mdi mdi-volume-high"></span>
+            <span id="playButton" class="mdi mdi-volume-high"></span>
         </div>
         <p id="RepliqueTitle">Titre de la réplique</p>
     </div>

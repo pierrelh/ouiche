@@ -25,3 +25,7 @@ function singleVueUpdateKeyword(keyword) {
     var element = document.querySelector("[data-word_uuid='"+keyword+"']");
     singleVueUpdate(element.id);
 }
+
+document.getElementById("playButton").addEventListener("click", function(){
+   document.getElementById("AudioPlayer").play();
+});
