@@ -19,3 +19,47 @@
     font-size:28px;
     cursor:pointer;
 }
+
+.share-box ul.list li.link, .share-box ul.list li.link {
+    position:relative;
+}
+
+.share-box ul.list li.link .copied {
+    position:absolute;
+    display:none;
+}
+
+.share-box ul.list li.link .copied.copied-animation {
+    animation: copied 0.8s ease-in 0s 1 forwards;
+    position:inherit;
+    display:inherit;
+    pointer-events: none;
+}
+
+@keyframes copied {
+    0% { 
+        position:absolute;
+        font-family: 'Cairo', sans-serif;
+        color:#fff;
+        display:block;
+        font-size:15px;
+        top:0px;
+        background-color:#fdaf16;
+        width:100px;
+        text-align:center;
+        left:-40px;
+        opacity:100%;
+    }
+    50% {
+        opacity:100%;
+    }
+    100% {
+        top:-20px;
+        opacity:0%;
+        left:-40px;
+        width:100px;
+        position:absolute;
+        display:none;
+        text-align:center;
+    }
+}
